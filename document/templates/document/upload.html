@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body style="margin-left:250px; margin-top: 100px;">
+        <form method="post" enctype="multipart/form-data">{% csrf_token %}
+            <input type="file" name="document">
+            <button type="submit">Upload</button>
+        </form>
+</body>
+</html>
